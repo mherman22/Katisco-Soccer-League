@@ -2,9 +2,20 @@ package com.mherman22.katiscoLeague.model;
 
 public class Name {
     private String first_name;
+
     private String second_name;
+
     private String last_name;
     
+    public Name() {
+    }
+
+    public Name(String first_name, String second_name, String last_name) {
+        this.first_name = first_name;
+        this.second_name = second_name;
+        this.last_name = last_name;
+    }
+
     public String getFirst_name() {
         return first_name;
     }

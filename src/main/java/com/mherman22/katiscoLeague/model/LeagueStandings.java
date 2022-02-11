@@ -10,17 +10,46 @@ public class LeagueStandings {
     @Id
     @GeneratedValue
     private Long Standings_id;
+
     private String Matches_played;
+
     private String Team_wins;
+
     private String Team_draws;
+
     private String Team_losses;
+
     private String goals_forward;
+
     private String goals_against;
+
     private String goal_difference;
+
     private String Team_points_obtained;
+
     private String Team_rank;
-    private String Total_league_teams;
     
+    private String Total_league_teams;
+
+    public LeagueStandings() {
+    }
+
+    public LeagueStandings(Long standings_id, String matches_played, String team_wins, String team_draws,
+            String team_losses, String goals_forward, String goals_against, String goal_difference,
+            String team_points_obtained, String team_rank, String total_league_teams) {
+        Standings_id = standings_id;
+        Matches_played = matches_played;
+        Team_wins = team_wins;
+        Team_draws = team_draws;
+        Team_losses = team_losses;
+        this.goals_forward = goals_forward;
+        this.goals_against = goals_against;
+        this.goal_difference = goal_difference;
+        Team_points_obtained = team_points_obtained;
+        Team_rank = team_rank;
+        Total_league_teams = total_league_teams;
+    }
+
     public Long getStandings_id() {
         return Standings_id;
     }
@@ -104,7 +133,7 @@ public class LeagueStandings {
     public String getTotal_league_teams() {
         return Total_league_teams;
     }
-    
+
     public void setTotal_league_teams(String total_league_teams) {
         Total_league_teams = total_league_teams;
     }
@@ -116,5 +145,5 @@ public class LeagueStandings {
                 + ", Team_rank=" + Team_rank + ", Team_wins=" + Team_wins + ", Total_league_teams=" + Total_league_teams
                 + ", goal_difference=" + goal_difference + ", goals_against=" + goals_against + ", goals_forward="
                 + goals_forward + "]";
-    }  
+    }
 }
