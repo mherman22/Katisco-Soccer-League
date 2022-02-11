@@ -10,8 +10,6 @@ public class LeagueStandings {
     @Id
     @GeneratedValue
     private Long Standings_id;
-// Season_league_id (FK)
-// Season_league_team_id (FK)
     private String Matches_played;
     private String Team_wins;
     private String Team_draws;

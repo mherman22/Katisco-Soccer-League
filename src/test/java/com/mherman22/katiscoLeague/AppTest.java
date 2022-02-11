@@ -1,4 +1,4 @@
-package com.mherman22.debateHibernate;
+package com.mherman22.katiscoLeague;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

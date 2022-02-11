@@ -2,7 +2,6 @@ package com.mherman22.katiscoLeague.model;
 
 public class User {
     private Long User_id;
-// User_role_id (FK)
     private String Username;
     private String Password;
     private Number Mobile_tel;
