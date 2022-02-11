@@ -1,24 +1,46 @@
 package com.mherman22.katiscoLeague.model;
 
 import java.util.Date;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+
 @Entity
 public class Match {
 
-    @Id @GeneratedValue
+    @Id 
+    @GeneratedValue
     private Long Match_id;
-    private Date Match_date;
-    private String Match_time;
-    private String Match_location;
-    private String Score_home_team;
-    private String score_away_team;
-    private Boolean Is_played;
 
+    private Date Match_date;
+
+    private String Match_time;
+
+    private String Match_location;
+
+    private String Score_home_team;
+
+    private String score_away_team;
     
+    private Boolean Is_played;
+    
+    public Match() {
+    }
+
+    public Match(Long match_id, Date match_date, String match_time, String match_location, String score_home_team,
+            String score_away_team, Boolean is_played) {
+        Match_id = match_id;
+        Match_date = match_date;
+        Match_time = match_time;
+        Match_location = match_location;
+        Score_home_team = score_home_team;
+        this.score_away_team = score_away_team;
+        Is_played = is_played;
+    }
+
+
+
     public Long getMatch_id() {
         return Match_id;
     }

@@ -14,6 +14,14 @@ public class SeasonReferee {
     @Embedded
     private Name name;
 
+    public SeasonReferee() {
+    }
+
+    public SeasonReferee(Long season_referee_id, Name name) {
+        Season_referee_id = season_referee_id;
+        this.name = name;
+    }
+
     public Long getSeason_referee_id() {
         return Season_referee_id;
     }

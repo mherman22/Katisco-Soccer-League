@@ -1,10 +1,10 @@
 package com.mherman22.katiscoLeague.model;
 
 import java.util.Date;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+
 
 /*
 @season POJO
@@ -16,11 +16,25 @@ public class Season {
     @Id
     @GeneratedValue
     private Long Season_id;
+
     private String Season_name;
+
     private Date Season_start;
+
     private Date Season_end;
+    
     private Boolean isActive;
     
+    public Season() {
+    }
+    
+    public Season(Long season_id, String season_name, Date season_start, Date season_end, Boolean isActive) {
+        Season_id = season_id;
+        Season_name = season_name;
+        Season_start = season_start;
+        Season_end = season_end;
+        this.isActive = isActive;
+    }
     public Long getSeason_id() {
         return Season_id;
     }
