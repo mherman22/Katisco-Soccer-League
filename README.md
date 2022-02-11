@@ -29,5 +29,4 @@
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- References
+- Inspiration from many open source projects
