@@ -1,0 +1,11 @@
+<hibernate-configuration>
+<session-factory>
+<!--  Database connection settings  -->
+<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+<property name="connection.url">jdbc:mysql://localhost/debate</property>
+<property name="connection.username">root2</property>
+<property name="connection.password">Herman000!</property>
+<property name="show_sql">true</property>
+</session-factory>
+</hibernate-configuration>
