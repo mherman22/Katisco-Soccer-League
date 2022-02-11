@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mherman22</groupId>
-  <artifactId>debateHibernate</artifactId>
+  <artifactId>KatiscoSoccerLeague</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>debateHibernate</name>
+  <name>Katisco Soccer League</name>
   <url>http://maven.apache.org</url>
 
   <properties>
