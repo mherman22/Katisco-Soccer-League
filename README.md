@@ -3,9 +3,6 @@
 <div align="center">
 
 [![Java CI with Maven](https://github.com/mherman22/Katisco-Soccer-League/actions/workflows/maven.yml/badge.svg)](https://github.com/mherman22/Katisco-Soccer-League/actions/workflows/maven.yml)
-[![GitHub Pull Requests](https://github.com/mherman22/Katisco-Soccer-League/pulls)](https://github.com/mherman22/Katisco-Soccer-League/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
 </div>
 
 ---
